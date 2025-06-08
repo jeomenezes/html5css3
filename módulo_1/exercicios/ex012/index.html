@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="jm_favicon/jm_favicon.ico" type="image/x-icon">
+        <title>Midias no HTML5</title>
+    </head>
+
+    <body>
+        <h1>Midias no HTML5 - Parte 2</h1>
+        <hr>
+        <h2>Carregando videos Local no HTML</h2>
+        <h3>Forma simplificada</h3>
+
+        <video src="midia/meu-video.m4v" controls width="950" loop></video>
+        <hr>
+
+        <h3>Forma Completa para video em hospedagem local</h3>
+
+        <video poster="imagens/limoes-capa.png"controls width="700"  >
+
+            <source src="midia/meu-video.mp4" type="video/mp4">
+            <source src="midia/meu-video.webm" type="video/webm">
+            <source src="midia/meu-video.m4v" type="video/m4v">
+            <source src="midia/meu-video.ogv" type="video/ogg">
+            <p>O seu Navegador não é compativel com a reprodução de videos </p>
+
+        </video>
+        <hr>
+
+        <h2>Carregando videos externo do YouTube ou Vimeo</h2>
+        <h3>Usaremos a tag "iframe" para carregar os videos</h3>
+        <hr>
+        <h4>Incorporar video do YouTube</h4>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=RlRmIWTZGbgi_Gri"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+
+        <hr>
+
+        <h4>Incorporar video do vimeo</h4>
+
+        <iframe src="https://player.vimeo.com/video/234797890?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  width="550" height="309" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Animetion_Reel_2017"> </iframe>
+
+        <hr>
+
+
+
+        
+    </body>
+
+</html>

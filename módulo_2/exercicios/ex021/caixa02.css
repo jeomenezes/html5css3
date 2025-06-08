@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+:root{
+    --degrade: linear-gradient(to right, rgb(149, 114, 252 ,1), rgb(67, 231, 173 ,1), rgb(226, 212, 92 ,1) );
+}
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(92, 92, 92);
+}
+
+#body_conteiner{
+    margin: 8px 40px;
+    background-color: rgb(92, 92, 92);
+}
+header{
+    position: sticky; /*grudado, vai grudar o elemento header no topo*/
+    top: 0px;
+
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 20px 0px 15px 0px;
+    box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.534) 0px 3px 6px;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0px;
+    text-align: center;
+}
+nav{
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.534) 0px 3px 6px;
+    border-radius:5px;
+    width: inherit;
+    
+}
+
+nav>ul li{ 
+    
+    display: inline-block;
+    margin: 6px 20px;
+    
+}
+
+ul>li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+ul>li a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+main{
+    background-color: white;
+    padding: 5px;
+    z-index: -2;
+
+}
+
+#main_section{
+    margin: 10px;
+
+}
+
+article{
+    background-color: rgb(211, 211, 211);
+    padding: 7px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.322) 0px 3px 6px;
+}
+
+article p{
+    text-align: justify;
+}
+
+#secao{
+    width: inherit;
+    background-color: rgb(160, 160, 160);
+    color: rgb(34, 33, 33);
+    padding: 8px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#secao div{
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color:  rgb(211, 211, 211);
+    margin: 10px 50px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.322) 0px 3px 6px;
+
+
+}
+
+aside{
+    background-color: rgb(160, 160, 160);
+    text-align: center;
+    width: inherit;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#m_aside{
+    position: relative;
+    background-color: rgb(160, 160, 160);
+    z-index: 1;
+    border: 4px solid rgb(133, 133, 133);
+    border-image: var(--degrade) 1;
+}
+aside#m_aside::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(149, 114, 252 ,1), rgb(67, 231, 173 ,1), rgb(226, 212, 92 ,1) );
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:8px;
+    margin: 10px 0px;
+}
+
+footer>p{
+    margin: 0px;
+}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(111, 185, 247);
+    font-family: 'Verdana', Tahoma, Geneva,sans-serif;
+}
+
+span{
+    background-color: brown;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+h1{
+    color: rgba(92, 177, 8, 0.904);
+
+}
+
+h2{
+    color: rgb(55, 77, 19);
+
+}
+
+#titulo_principal{
+    background-color: blueviolet !important;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.basico{
+    
+    color: rgb(6, 141, 63);
+    text-align: center;
+}
+
+.intermediario{
+    
+    color: rgba(253, 249, 5, 0.829);
+    text-align: center;
+}
+
+.avancado{
+    
+    color: rgb(175, 68, 6);
+    text-align: center;
+}
+
+.paragrafo{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(41, 40, 40);
+}
+
+.destaque{
+    background-color: rgb(97, 114, 79);
+}

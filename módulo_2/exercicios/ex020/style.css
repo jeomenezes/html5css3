@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: chartreuse;
+}
+
+a:visited{
+    color: rgb(214, 121, 121);
+}
+
+div{
+    background-color: aquamarine;
+    width: 400px;
+    
+}
+
+div > p{
+    display: none;
+}
+
+div:hover >p{
+    display: block;
+}
+
+div:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+input{
+    color: blueviolet;
+
+}
+
+#main_bichos{
+    color: brown;
+    cursor: pointer;
+}
+#main_bichos:hover{
+    color: cadetblue;
+}
+
+#main_bichos > ul{
+    display: none;
+}
+
+#main_bichos:hover > ul{
+    display: block;
+    
+}
+
+#sub_bichos{
+    background-color: rgb(253, 254, 255);
+    width: 100px;
+    box-shadow: 2px 2px 10px rgba(150, 150, 150, 0.856);
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    z-index: 2;
+    position: absolute;
+}
+
+p{
+    text-indent: 50px;
+    text-align: justify;
+    margin: 60px;
+    
+}
+.meu_texto::selection{
+    background-color: rgb(29, 233, 11);
+    color: aliceblue;
+    
+}
+
+.meu_texto::first-line{
+    font-weight: bolder;
+}
+
+.meu_texto::first-letter{
+    font-size: 4em;
+}
+
+p::before, p::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background-color: rgb(4, 4, 107);
+    transition: .5s ease-in;
+
+}
+
+p:hover::before, p:hover::after{
+    width: 825px;
+}
+
+/*p::after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background-color: rgb(4, 4, 107);
+    margin-bottom: 20px;
+    transition: .5s;
+
+}
+
+p:hover::after{
+    width: 825px;
+}*/
+

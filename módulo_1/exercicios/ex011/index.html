@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="jm_favicon/jm_favicon.ico" type="image/x-icon">
+        <title>Midias no HTML5</title>
+    </head>
+
+    <body>
+
+        <h1>Midias no HTML5</h1>
+        <hr>
+        <h2> Imagens dinamicas e adaptaveis</h2>
+
+        <p>Tente abrir este site em varias telas diverentes ou simplesmente crontraia ou expanda a janela do seu navegador.</p>
+        <hr>
+
+        <picture>
+
+            <source media="(max-width:710px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width:1030px)" srcset="imagens/foto-m.png" type="image/png" >
+            <img src="imagens/foto-g.png" alt="">
+
+        </picture>
+        <hr>
+
+        <h2>Áudios no HTML5</h2>
+        <p>Vamos aprender as duas formas de reproduzir áudios no HTML5.</p>
+
+        <h3>Forma simplificada</h3>
+
+        <audio src="midia/guanacast-33.mp3" controls></audio>
+
+        <p>Esta forma é limitada, não funciona em alguns navegadores e so carrega um arquivo de audio, se este não for comparivel com algum navegador o usuario deste fica na mão.</p>
+
+        <h3>Forma completa</h3>
+        <p>Esta forma usa a tag "audio" junto com a tag "source" para carregar dinamicamente varios formatos do mesmo arquivo de acordo com o navegador do usuario.</p>
+
+        <audio  preload="metadata" controls loop>
+
+            <source src="midia/guanacast-33.mp" type="audio/mpeg">
+            <source src="midia/happy-mistake.mp3" type="audio/mp3">
+            <p>Áudio não suportado, baixe <a href="midia/happy-mistake.mp3" download="happy-mistake.mp3" type="audio/mp3">aqui</a></p>
+
+        </audio>
+        <hr>
+
+
+        
+    </body>
+
+</html>

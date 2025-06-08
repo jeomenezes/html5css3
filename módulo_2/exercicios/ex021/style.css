@@ -1,0 +1,48 @@
+@charset "UYF-8";
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    
+    background-color:blueviolet;
+    text-align: center;
+    color: aliceblue;
+}
+
+p{
+    border: 2px solid rgba(102, 62, 141, 0.281);
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+a{
+    display: inline-block;
+    background-color: rgb(160, 80, 170);
+    text-decoration: none;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    padding: 10px;
+    width: 100px;
+    margin: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.616);
+    transition: .5s;
+}
+
+section{
+    
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: blueviolet;
+    
+}

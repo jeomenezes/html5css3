@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+
+    font-style: italic;
+    /*font-variant: small-caps;*/
+    font-weight: 600;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, arial, sans-serif;
+    
+}
+
+h1{
+    font: italic small-caps 600 1em Verdana, Geneva, Tahoma, arial, sans-serif;
+}
+
+h4{
+    text-align: justify;
+    text-decoration: underline blue double;
+    text-transform: none;
+    text-indent: 50px;
+
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="jm_favicon/jm_favicon.ico" type="image/x-icon">
+        <title>Links e Âncoras</title>
+    </head>
+
+    <body>
+
+        <h1>Trabalhando com Links</h1>
+        <hr>
+        <h2>Links externos</h2>
+
+        <p>Este link me leva para o <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="externos" > meu gmail</a></p>
+
+        <p>Ver <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27" target="_blank" rel="externos">aula de links</a> do professor Guanabara no youtube. </p>
+        <hr>
+
+        <h2>Linkis Internos</h2>
+
+        <p>Acesse a segunda pagina deste site clicando <a href="pag02.html" target="_self" rel="next">aqui</a>.</p>
+
+        <p>acesse a terceira pagina deste site clicando <a href="html/pag03.html" target="_self" rel="next">aqui</a> </p>
+
+
+        <pre>
+            <code>
+                Usando links internos: Resumo  
+                
+                href="link" rel="next" target="_self">  
+            
+                    - O link deve estar dentro da mesma pasta;
+            
+                    - Se o link estiver dentro de outra pasta deve ser informado o caminho completo.
+            
+                                  Ex:  href="noticias/pag003.html">  
+            
+                    - Ctrl + Espaço pode ajudar a selecionar o link;
+            
+                    -   ./    no link significa que o arquivo está na própria pasta;
+            
+                    -   ../   no link significa que o arquivo está na pasta anterior;
+            
+                        - Para voltar mais pastas em um link usa-se um ../ para cada pasta;
+            
+                                  Ex: "../../../arquivo.html"
+            
+                    - rel="next"  para link da página seguinte;
+            
+                    - rel="prev"  para link da página anterior;
+            
+                    - rel="nofollow"  informa ao navegador que você não dá aval à página;
+            
+                    - target="_self"  indica que o link será aberto na mesma guia (opcional);</code>
+        </pre>
+
+        <hr>
+
+        <h2>Links Para Download</h2>
+        <h3>Baixe os meus Livros!!</h3>
+
+        <ul>
+            <li><a href="livros/19-04-2023 - Relatório Técnico - Manutenção Geral - SegMax.pdf" download="19-04-2023 - Relatório Técnico - Manutenção Geral - SegMax.pdf" type="application/pdf">Baixar relatorio em PDF</a></li>
+
+            <li><a href="livros/31-03-2021 - Relatório Técnicos - Diagnóstico e Reparação - BDA - Cópia.docx" download="31-03-2021 - Relatório Técnicos - Diagnóstico e Reparação - BDA - Cópia.docx">Baixar relatorio em DOCX</a></li>
+            
+            <li><a href="livros/1348 - A Peste Negra - Jose Martino.epub">Baixar livro da Peste Negra em ePUB</a></li>
+        </ul>
+
+
+        <hr>
+
+
+
+    </body>
+
+
+</html>

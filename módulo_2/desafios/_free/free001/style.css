@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    color: rgb(129, 106, 3);
+    background-color: rgb(71, 255, 96);
+}
+
+section{
+    text-align: center;
+    background-color: rgb(71, 255, 96);
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+button {
+    margin: 400px auto;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(71, 255, 96);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+    
+
+}
+
+button:hover {
+    background-color: rgb(124, 175, 219);
+    cursor: pointer;
+    transition: 0.80s;
+    
+}
+
